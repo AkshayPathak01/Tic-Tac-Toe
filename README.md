@@ -12,6 +12,6 @@ Modes are available:
 
 Flash screen          |  Home Screen  |  Dailog Box
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/Akshaypathak01/Tic-Tac-Toe/tree/master/assets/images/Screenshot/Screenshot1.jpg?raw=true)|![](https://github.com/Akshaypathak01/Tic-Tac-Toe/tree/master/assets/images/Screenshot/Screenshot2.jpg?raw=true)|![](https://github.com/Akshaypathak01/Tic-Tac-Toe/tree/master/assets/images/Screenshot/Screenshot3.jpg?raw=true) 
+![](https://github.com/Akshaypathak01/Tic-Tac-Toe/blob/master/assets/images/Screenshot/Screenshot1.jpg?raw=true)|![](https://github.com/Akshaypathak01/Tic-Tac-Toe/blob/master/assets/images/Screenshot/Screenshot2.jpg?raw=true)|![](https://github.com/Akshaypathak01/Tic-Tac-Toe/blob/master/assets/images/Screenshot/Screenshot3.jpg?raw=true) 
 
 
