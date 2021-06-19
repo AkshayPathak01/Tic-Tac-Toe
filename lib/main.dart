@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tic_tac_toe/pages/home_pages.dart';
 import 'package:flutter_tic_tac_toe/pages/splash_screen.dart';
 import 'package:flutter_tic_tac_toe/themes/themes.dart';
-import 'package:flutter_tic_tac_toe/utils/routes.dart';
 
 void main() {
   runApp(MyApp());

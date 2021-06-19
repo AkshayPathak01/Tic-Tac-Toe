@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:flutter_tic_tac_toe/utils/my_navi.dart';
-import 'package:flutter_tic_tac_toe/utils/routes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import 'package:flutter/material.dart';
@@ -15,7 +14,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 5), () => MyNavigator.goToHome(context));
+    Timer(Duration(seconds: 3), () => MyNavigator.goToHome(context));
   }
 
   @override
@@ -27,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: <Widget>[
             Container(
               decoration: BoxDecoration(
-                color: context.theme.buttonColor,
+                color: context.theme.cardColor,
               ),
             ),
             Column(
@@ -40,11 +39,13 @@ class _SplashScreenState extends State<SplashScreen> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Image.asset(
-                          "assets/images/tic-tac-toe.png",
+                          "assets/images/12.png",
                           fit: BoxFit.cover,
+                          height: 150,
+                          width: 150,
                         ),
                         SizedBox(
-                          height: 20.0,
+                          height: 10.0,
                         ),
                         Text(
                           "Tic Tac Tie",
@@ -64,7 +65,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       CircularProgressIndicator(
-                        color: context.theme.canvasColor,
+                        color: context.theme.cardColor,
                       ),
                       Padding(
                         padding: EdgeInsets.only(top: 20.0),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class CustomDialog extends StatelessWidget {
   final title;
@@ -11,13 +12,20 @@ class CustomDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Text(title),
+      title: Text(
+        title,
+        textScaleFactor: 1.5,
+        style: TextStyle(
+            color: context.theme.accentColor,
+            fontWeight: FontWeight.bold,
+            fontSize: 24.0),
+      ),
       content: Text(content),
       actions: <Widget>[
         // ignore: deprecated_member_use
         new FlatButton(
           onPressed: callback,
-          color: Colors.white,
+          color: context.theme.cardColor,
           child: Text(actionText),
         )
       ],
