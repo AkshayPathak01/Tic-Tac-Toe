@@ -1,4 +1,5 @@
 import 'dart:math';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:velocity_x/velocity_x.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tic_tac_toe/pages/custom_dailog.dart';
@@ -64,6 +65,7 @@ class _HomePageState extends State<HomePage> {
               builder: (_) => new CustomDialog("Game Tied",
                   "Press the reset button to start again.", resetGame1));
         } else {
+          // ignore: unnecessary_statements
           activePlayer == 2 ? autoPlay() : null;
         }
       }
