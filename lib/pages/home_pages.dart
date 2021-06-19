@@ -185,8 +185,9 @@ class _HomePageState extends State<HomePage> {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          "Tic Tac Toc"
+          "Tic Tac Toe"
               .text
+              .center
               .xl5
               .bold
               .color(context.theme.accentColor)
@@ -212,7 +213,7 @@ class _HomePageState extends State<HomePage> {
                       : null,
                   child: Text(
                     buttonsList[i].text,
-                    style: TextStyle(color: Colors.white, fontSize: 100.0),
+                    style: TextStyle(color: Colors.white, fontSize: 50.0),
                   ),
                   color: buttonsList[i].bg,
                   disabledColor: buttonsList[i].bg,

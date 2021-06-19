@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
                           height: 10.0,
                         ),
                         Text(
-                          "Tic Tac Tie",
+                          "Tic Tac Toe",
                           textScaleFactor: 2.0,
                           style: TextStyle(
                               color: context.theme.accentColor,
